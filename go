@@ -2,6 +2,20 @@
 
 set -eu
 
+function install_js_linter {
+  (
+    cd vim/linters/javascript
+    npm install standard@*
+  )
+}
+
+function install_ruby_linter {
+  (
+    cd vim/linters/ruby
+    bundle install --path vendor/bundle --binstubs
+  )
+}
+
 function install {
   local package="$1"
   local target="$HOME/.$1"
@@ -20,6 +34,9 @@ function install {
 }
 
 function task_install {
+  install_ruby_linter
+  install_js_linter
+
   install "vimrc"
   install "vim"
 }

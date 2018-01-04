@@ -1,0 +1,6 @@
+vim/linters/*/bin
+vim/linters/*/node_modules
+vim/linters/*/package-lock.json
+vim/linters/*/vendor
+vim/linters/*/.bundle
+vim/linters/*/Gemfile.lock
