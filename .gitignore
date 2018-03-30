@@ -4,3 +4,4 @@ vim/linters/*/package-lock.json
 vim/linters/*/vendor
 vim/linters/*/.bundle
 vim/linters/*/Gemfile.lock
+vim/.netrwhist
