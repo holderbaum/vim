@@ -5,7 +5,7 @@ set -eu
 function install_js_linter {
   (
     cd vim/linters/javascript
-    npm install standard@*
+    npm install standard@* eslint@* eslint-plugin-vue@*
   )
 }
 

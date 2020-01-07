@@ -8,5 +8,37 @@ let g:ale_ruby_rubocop_options = '-c ' . g:linter_home . 'ruby/rubocop.yml'
 let g:ale_linters = {
 \   'javascript': ['standard'],
 \   'ruby': ['rubocop'],
+\   'vue': ['eslint'],
 \}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
