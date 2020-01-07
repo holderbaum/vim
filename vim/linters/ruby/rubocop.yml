@@ -1,2 +1,9 @@
 Style/Documentation:
   Enabled: false
+
+Metrics/BlockLength:
+  ExcludedMethods:
+    - context
+    - describe
+    - it
+    - namespace
